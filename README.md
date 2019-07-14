@@ -44,5 +44,5 @@ default       php-apache-5fbf8867-kxcsd                 1/1     Running     0   
 default       php-apache-5fbf8867-l42l4                 0/1     Pending     0          55m
 default       php-apache-5fbf8867-lh6hq                 1/1     Running     0          56m
 default       php-apache-5fbf8867-rdb6n                 1/1     Running     0          56m
-default       php-apache-5fbf8867-rdtgl                 1/1     Running     0          56m
-`
+default       php-apache-5fbf8867-rdtgl                 1/1     Running     0          56m`
+
