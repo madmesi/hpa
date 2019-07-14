@@ -33,9 +33,10 @@ Kubernetes Horizontal Pod Autoscaler with metrics server
 ## Result
 `kubectl get pods`
 
-`NAMESPACE     NAME                                      READY   STATUS      RESTARTS   AGE`
-
+NAMESPACE     NAME                                      READY   STATUS      RESTARTS   AGE
+--- | --- | --- | --- | --- | ---
 default       php-apache-5fbf8867-72s5w                 0/1     Pending     0          55m
+1 | 2 | 3 | 4 | 5 | 6
 default       php-apache-5fbf8867-bcnsv                 1/1     Running     0          56m
 default       php-apache-5fbf8867-g9tpd                 1/1     Running     0          56m
 default       php-apache-5fbf8867-k79qg                 1/1     Running     0          56m
