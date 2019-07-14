@@ -15,11 +15,11 @@ Kubernetes Horizontal Pod Autoscaler with metrics server
 
 
 ## 2) Create hpa
-kubectl create -f php-apache-hpa.yaml
+`kubectl create -f php-apache-hpa.yaml`
 
 
 ## Create Load
-kubectl run -i --tty load-generator --image=busybox /bin/sh
+`kubectl run -i --tty load-generator --image=busybox /bin/sh`
 
 ## inside prompt:
-while true; do wget -q -O- http://php-apache.default.svc.cluster.local; done
+`while true; do wget -q -O- http://php-apache.default.svc.cluster.local; done`
