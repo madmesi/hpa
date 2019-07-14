@@ -26,5 +26,5 @@ Kubernetes Horizontal Pod Autoscaler with metrics server
 
 
 ## Check the hpa
-`NAME         REFERENCE               TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
-php-apache   Deployment/php-apache   62%/50%   1         10        10         54m`
+NAME         REFERENCE               TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+`php-apache   Deployment/php-apache   62%/50%   1         10        10         54m`
