@@ -23,3 +23,8 @@ Kubernetes Horizontal Pod Autoscaler with metrics server
 
 ## inside prompt:
 `while true; do wget -q -O- http://php-apache.default.svc.cluster.local; done`
+
+
+## Check the hpa
+`NAME         REFERENCE               TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+php-apache   Deployment/php-apache   62%/50%   1         10        10         54m`
