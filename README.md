@@ -7,9 +7,9 @@ Kubernetes Horizontal Pod Autoscaler with metrics server
 
 
 ## 1) Create php-apache deployment 
-cd deploy
-kubectl create -f php-apache-dep.yaml
-kubectl create -f php-apache-svc.yaml
+`cd deploy`
+`kubectl create -f php-apache-dep.yaml`
+`kubectl create -f php-apache-svc.yaml`
 
 
 ## 2) Create hpa
